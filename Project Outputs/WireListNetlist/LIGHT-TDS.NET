@@ -1,0 +1,48 @@
+Wire List
+
+<<< Component List >>>
+PAD                             J1             PAD
+PAD                             J2             PAD
+PAD                             J5             PAD
+PAD                             J6             PAD
+PAD                             J9             PAD
+PAD                             J10            PAD
+Header 4                        P1             HDR1X4
+Header 4                        P2             HDR1X4
+B                               PWM1           HDR Side 3 pin
+B                               PWM2           HDR Side 3 pin
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00006] NetJ10_1
+        J10        1       1              PASSIVE     PAD
+        P1         3       3              PASSIVE     Header 4
+        PWM2       3       3              PASSIVE     B
+
+[00005] NetJ9_1
+        J9         1       1              PASSIVE     PAD
+        P2         1       1              PASSIVE     Header 4
+        PWM1       1       1              PASSIVE     B
+
+[00004] NetJ6_1
+        J6         1       1              PASSIVE     PAD
+        P1         2       2              PASSIVE     Header 4
+        PWM2       2       2              PASSIVE     B
+
+[00003] NetJ5_1
+        J5         1       1              PASSIVE     PAD
+        P2         2       2              PASSIVE     Header 4
+        PWM1       2       2              PASSIVE     B
+
+[00002] NetJ2_1
+        J2         1       1              PASSIVE     PAD
+        P1         1       1              PASSIVE     Header 4
+        PWM2       1       1              PASSIVE     B
+
+[00001] NetJ1_1
+        J1         1       1              PASSIVE     PAD
+        P2         3       3              PASSIVE     Header 4
+        PWM1       3       3              PASSIVE     B
+
